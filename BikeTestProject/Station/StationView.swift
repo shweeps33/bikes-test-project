@@ -42,7 +42,7 @@ struct StationView: View {
                 } else {
                     VStack {
                         Spacer()
-                        Text("Can't find location")
+                        Text("Can't fetch location")
                         Spacer()
                     }
                 }
